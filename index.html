@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Your Perfect Pod in 3 Sips | Wonky Coffee Trial</title>
+    <meta name="description" content="Try 12 premium coffee pods from around the world. No commitment, just great coffee delivered to your door for £9.99.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Wonky Coffee</div>
+                <a href="#order" class="header-cta">Start Trial - £9.99</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Your Perfect Pod in 3 Sips</h1>
+                <p>Try 12 premium coffee pods from around the world. No commitment, just great coffee delivered to your door.</p>
+                <button class="cta-button" onclick="openOrderModal()">Start My Coffee Journey - £9.99</button>
+                <div class="trust-badges">
+                    <div class="trust-badge">✈️ Free UK Delivery</div>
+                    <div class="trust-badge">🔄 Cancel Anytime</div>
+                    <div class="trust-badge">💰 30-Day Guarantee</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="social-stats">
+                <div class="stat">
+                    <span class="stat-number">15,000+</span>
+                    <span>Coffee Lovers</span>
+                </div>
+                <div class="stat">
+                    <span class="stars">★★★★★</span>
+                    <span><span class="stat-number">4.8/5</span> from 2,341 reviews</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Featured in</span>
+                    <span>Coffee Weekly, Bean There Magazine</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase">
+        <div class="container">
+            <h2 class="section-title">What's Inside Your Trial Box</h2>
+            <div class="pods-grid">
+                <div class="pod-card">
+                    <div class="pod-icon">🇪🇹</div>
+                    <div class="pod-name">Ethiopian Yirgacheffe</div>
+                    <div class="pod-description">Bright, floral notes with citrus undertones</div>
+                </div>
+                <div class="pod-card">
+                    <div class="pod-icon">🇨🇴</div>
+                    <div class="pod-name">Colombian Supremo</div>
+                    <div class="pod-description">Rich, balanced with chocolate hints</div>
+                </div>
+                <div class="pod-card">
+                    <div class="pod-icon">🇬🇹</div>
+                    <div class="pod-name">Guatemalan Antigua</div>
+                    <div class="pod-description">Full-bodied with smoky, spicy notes</div>
+                </div>
+                <div class="pod-card">
+                    <div class="pod-icon">🇯🇲</div>
+                    <div class="pod-name">Jamaica Blue Mountain</div>
+                    <div class="pod-description">Mild, smooth with subtle complexity</div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="cta-button" onclick="openOrderModal()">Get These Pods Delivered - £9.99</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Trial</h3>
+                    <p>Select your flavour preferences and we'll curate the perfect selection for your taste buds.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>We Curate</h3>
+                    <p>Our coffee experts handpick 12 premium pods from the world's best roasters.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Discover & Decide</h3>
+                    <p>Try them all, find your favorites, then choose what you'd like in future deliveries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Stories -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Coffee Lovers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="testimonial-text">"I was skeptical about pod coffee until Wonky. The Ethiopian single-origin in my trial box is now my daily go-to. Worth every penny!"</div>
+                    <div class="testimonial-author">- Sarah M., London</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"Perfect for my busy mornings. The variety helped me discover flavours I never would have tried otherwise. The Guatemalan is incredible!"</div>
+                    <div class="testimonial-author">- James R., Manchester</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"Finally, pod coffee that doesn't compromise on quality. The trial box is genius - no commitment, just great coffee exploration."</div>
+                    <div class="testimonial-author">- Emma L., Edinburgh</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Reversal -->
+    <section class="risk-reversal">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Try Risk-Free</h2>
+            <div class="guarantees">
+                <div class="guarantee">
+                    <div class="guarantee-icon">💰</div>
+                    <h3>30-Day Money-Back</h3>
+                    <p>Not satisfied? Get a full refund, no questions asked.</p>
+                </div>
+                <div class="guarantee">
+                    <div class="guarantee-icon">🚫</div>
+                    <h3>No Auto-Renewal</h3>
+                    <p>Your trial is just that - a trial. No surprise charges.</p>
+                </div>
+                <div class="guarantee">
+                    <div class="guarantee-icon">📦</div>
+                    <h3>Free Returns</h3>
+                    <p>Don't love it? We'll arrange free return pickup.</p>
+                </div>
+                <div class="guarantee">
+                    <div class="guarantee-icon">⏰</div>
+                    <h3>Cancel Anytime</h3>
+                    <p>Even before your trial ends. Complete freedom.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What if I don't like the pods?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day money-back guarantee. If you're not satisfied with your trial box, contact us for a full refund. We'll even arrange free return pickup.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>When will I be charged for a subscription?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Never automatically! Your trial is completely separate. After trying your pods, you can choose to start a subscription, but there's no automatic enrollment or hidden charges.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can I choose my own pods?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For the trial, our experts curate a diverse selection to help you discover new favorites. After your trial, you can choose specific pods or let us continue to surprise you!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What machines are compatible?</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our pods are compatible with all major pod coffee machines including Nespresso, Keurig, and most generic pod systems. If you're unsure, contact our team!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Find Your Perfect Coffee?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Join thousands of coffee lovers who discovered their new favorite through Wonky</p>
+            <button class="cta-button" onclick="openOrderModal()" style="background: #2C1810; color: white;">Start My Trial - £9.99</button>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">Questions? Chat with our coffee experts</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Wonky Coffee. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+<div id="orderModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeOrderModal()">&times;</span>
+        <h2 style="margin-bottom: 20px; color: #2C1810;">Start Your Coffee Journey</h2>
+        <form id="orderForm" onsubmit="handleOrder(event)">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="preferences">Coffee Preferences</label>
+                <select id="preferences" name="preferences" required>
+                    <option value="">Select your preference</option>
+                    <option value="light">Light & Fruity</option>
+                    <option value="medium">Balanced & Smooth</option>
+                    <option value="dark">Rich & Bold</option>
+                    <option value="mixed">Surprise Me!</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Delivery Address</label>
+                <input type="text" id="address" name="address" placeholder="Full address for delivery" required>
+            </div>
+            <button type="submit" class="cta-button" style="width: 100%; margin-top: 20px;">
+                Complete Order - £9.99
+            </button>
+        </form>
+        <p style="text-align: center; margin-top: 15px; font-size: 0.9rem; color: #666;">
+            ✓ Free delivery ✓ 30-day guarantee ✓ No commitment
+        </p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
